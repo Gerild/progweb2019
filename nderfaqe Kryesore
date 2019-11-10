@@ -1,0 +1,53 @@
+<html>
+<head>
+<style type = "text/css">
+h1 { font-weight: bold;
+color: red;}
+h2 { font-weight: bold;
+color: blue;}
+.password { color: yellow;}
+.text_full { 
+  text-decoration: underline; 
+  font-weight: bold; 
+  color: green;
+ margin-right: 50px;
+font-size: 30pt;
+ }
+
+body {
+
+	background-image:url("3.jpg");
+	background-position: absolute;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-color: lightgrey;
+}
+</style>
+
+
+
+</head>
+<body>
+
+
+
+
+<h1 style= "font-size: 50pt; color:red;">Rregjistrimi</h1>
+
+<table border="2px">
+<tr>
+<td rowspan="4"><img src="logo.jpg" width=160px height=300px>
+</td>
+<td><h1>Emer:</h1><input type= "text"></td>
+</tr>
+<tr><td><h2>Mbiemer:<h2><input type= "text"></h2></td>
+</tr>
+<tr><td><h3>Email:<h3><input type= "email"></h1></td>
+</tr>
+<tr><td><h1 class = "password">Password:</h1><input type= "password"></h1></td>
+</tr>
+<tr ><td colspan="2"><a href="www.google.com"><h2 class="text_full">Text </h2>
+</td></tr>
+</table>
+</body>
+</html>
